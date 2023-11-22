@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização do header*/
+
+.header {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    padding: .5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+.left {
+    width: 146px;
+    height: 24px;
+}
+
+.center {
+    width: 404px;
+    height: 40px;
+    border: 1px;
+}
+
+.icones {
+    display: flex;
+    gap: 24px;
+}
+
+.icone-andie {
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 50%;
+}
+
+/*Estilização do main*/
+
+.principal {
+    display: flex;
+    vertical-align: middle;
+}
+
+.assistindo {
+    width: 952px;
+    height: 746px;
+    padding: 1rem;
+    top: 84px;
+    left: 75px;
+}
+
+.sidebar {
+    padding-top: 1rem;
+}
